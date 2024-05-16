@@ -58,3 +58,6 @@ or clone the repo files directly to your home directory and install the
 ## Default Desktop Artwork
 
 Thomas Thiemeyer's *The Road to Samarkand* ([fb](https://www.facebook.com/t.thiemeyer/), [insta](https://www.instagram.com/tthiemeyer/), [shop](https://www.redbubble.com/de/people/TThiemeyer/shop))
+
+## Picom and Rofi
+picom and rofi config files were sourced from [siduck's dotfiles](https://github.com/siduck/dotfiles).
