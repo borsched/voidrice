@@ -13,10 +13,6 @@ if [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/x11/xprofile" ]; then
 else
 	. "$HOME/.xprofile"
 fi
-
-USERXSESSION="$XDG_CACHE_HOME/x11/xsession"
-USERXSESSIONRC="$XDG_CACHE_HOME/x11/xsessionrc"
-ALTUSERXSESSION="$XDG_CACHE_HOME/x11/Xsession"
-ERRFILE="$XDG_CACHE_HOME/x11/xsession-errors"
-
-ssh-agent dwm
+# Activate dbus variables
+dbus-update-activation-environment --all
+dbus-launch ssh-agent dwm
